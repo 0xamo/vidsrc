@@ -1,0 +1,14 @@
+{
+  "name": "stremio-vidlink-addon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Stremio addon that resolves VidLink movie streams into per-quality HLS entries.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  }
+}
